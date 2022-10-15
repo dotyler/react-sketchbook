@@ -24,14 +24,38 @@
   color: white;
 }
 
+.guess-me-box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 30px;
+  border-color: black;
+  margin: 10px;
+}
+
+.wrong {
+  color: red;
+  font-size: medium;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+button {
+  padding: 4px;
+  font-size: medium;
+}
+
+button+button {
+  margin-left: 10px;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
